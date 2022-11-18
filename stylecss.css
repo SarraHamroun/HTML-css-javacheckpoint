@@ -37,12 +37,29 @@ h1{
     font-size: 1.4em;
     color: mistyrose;
 }
-#History div{
-    display: inline-block;
+#History h1{
+    flex: none;
+    
     /*margin: auto;
     border: 3px solid mintcream;
     padding-left: 27%;*/
     
+}
+.flexhistory{
+    display: inline-block;
+    
+    /*margin: auto;
+    border: 3px solid mintcream;
+    padding-left: 27%;*/
+    
+}
+.flexboxlove, .flexboxfenced{
+    display: flex;
+}
+
+.flexlove, .flexfenced{
+    flex: 1;
+    margin-left: 2em;
 }
 #Newest h2{
     color:mistyrose;
@@ -65,8 +82,9 @@ h1{
 }
 #Sport div{
     display:block;
+    width: max-content;
     margin: auto;
-    padding-left: 27%;
+    
 }
 aside h3{
     text-align: right;
