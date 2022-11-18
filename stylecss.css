@@ -1,0 +1,89 @@
+
+html{
+    background-color: rgb(49, 47, 47);
+}
+p{
+    color: mistyrose;
+}
+.nav{
+    display: inline-block;
+    margin-right: 2em;
+    padding: 0.8em;
+  
+}
+.navtext{
+    color: mintcream ;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: 'Roboto';
+    font-style: light;
+
+}
+#History, #Newest, #Sport{
+    display: block;
+    padding: 0.8em;
+    margin: auto;
+    border-top: 7px double rgb(88, 86, 86);
+
+}
+h1{
+    color: rgba(223,9,23,255);
+    font-size: 2.4em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+#History p{
+    text-align: left;
+    font-size: 1.4em;
+    color: mistyrose;
+}
+#History div{
+    display: inline-block;
+    /*margin: auto;
+    border: 3px solid mintcream;
+    padding-left: 27%;*/
+    
+}
+#Newest h2{
+    color:mistyrose;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#Newest div{
+    display: inline-block;
+}
+#Newest h3{
+    color:mistyrose;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#Sport p{
+    text-align: left;
+    font-size: 1.4em;
+    color: mistyrose;
+
+}
+#Sport div{
+    display:block;
+    margin: auto;
+    padding-left: 27%;
+}
+aside h3{
+    text-align: right;
+    background-color: whitesmoke;
+    padding-left: 2em;
+    margin-left: 30%;
+}
+aside div{
+    padding-left: 2em;
+    margin-left: 30%;
+}
+footer {
+    padding:.2em .9em;
+    background-color: whitesmoke;
+}
+footer p{
+    font-size: 1.2em;
+    color:rgb(49, 47, 47)
+
+}
